@@ -17,8 +17,24 @@ ProjectileMovement =
 
 ## InitialSpeed
 
-Projektilens initiala hastighet
+Hastigheten projektilen ska ha från början.
+
+```cpp
+ProjectileMovement->InitialSpeed = 3000.0f;
+```
 
 ## MaxSpeed
 
+Projektilens maxhastighet.
+
+```cpp
+ProjectileMovement->MaxSpeed = 3000.0f;
+```
+
 ## bShouldBounce
+
+Ifall projektilen ska studsa.
+
+```cpp
+ProjectileMovement->bShouldBounce = true;
+```
