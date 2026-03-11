@@ -37,6 +37,7 @@
   * [UTextRenderComponent](dokumentation/komponenter/utextrendercomponent.md)
   * [UInputComponent](dokumentation/komponenter/uinputcomponent.md)
   * [UPawnMovementComponent](dokumentation/komponenter/upawnmovementcomponent.md)
+  * [UProjectileMovementComponent\*](dokumentation/komponenter/uprojectilemovementcomponent.md)
   * [UParticleSystemComponent](dokumentation/komponenter/uparticlesystemcomponent.md)
 * [FMath](dokumentation/fmath.md)
 * [UKismetMathLibrary](dokumentation/ukismetmathlibrary.md)
