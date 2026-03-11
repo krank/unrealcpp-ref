@@ -1,4 +1,4 @@
-# UWorld
+# UWorld\*
 
 ## SpawnActor()
 
@@ -26,7 +26,7 @@ I båda fallen kan man också lägga till ett FActorSpawnParameters-objekt.
 AFloatingActor* floater = GetWorld()->SpawnActor<AFloatingActor>(Transform, SpawnParams);
 ```
 
-## OverlapMultiByObjectType()
+## OverlapMultiByObjectType()\*
 
 ```cpp
 GetWorld()->OverlapMultiByObjectType(Overlaps, 

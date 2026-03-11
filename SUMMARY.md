@@ -51,7 +51,7 @@
 * [AController](dokumentation/acontroller.md)
 * [APlayerController](dokumentation/aplayercontroller.md)
 * [ULocalPlayer](dokumentation/ulocalplayer.md)
-* [UWorld](dokumentation/uworld.md)
+* [UWorld\*](dokumentation/uworld.md)
 * [Enhanced Input System](dokumentation/enhanced-input-system/README.md)
   * [UEnhancedInputComponent](dokumentation/enhanced-input-system/uenhancedinputcomponent.md)
   * [UEnhancedInputLocalPlayerSubsystem](dokumentation/enhanced-input-system/uenhancedinputlocalplayersubsystem.md)
