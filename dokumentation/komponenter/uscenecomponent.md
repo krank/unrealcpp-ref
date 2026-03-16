@@ -18,7 +18,7 @@ CameraComp->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
 
 ## SetRelativeLocation()
 
-Bestämmer komponentens position relativt sin _parent_. Anges som en [FVector](../datatyper/#fvector-fvector2d).
+Bestämmer komponentens position relativt sin _parent_. Anges som en [FVector](../datatyper/fvector.md).
 
 ```cpp
 VisualMesh->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
@@ -26,7 +26,7 @@ VisualMesh->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
 
 ## SetRelativeRotation()
 
-Bestämmer komponentens rotation relativt sin _parent_. Anges som en [FRotator](../datatyper/#frotator).
+Bestämmer komponentens rotation relativt sin _parent_. Anges som en [FRotator](../datatyper/frotator.md).
 
 ```cpp
 VisualMesh->SetRelativeLocation(FRotator(0.0f,0.0f,60.0f));
