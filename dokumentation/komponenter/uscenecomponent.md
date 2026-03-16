@@ -34,7 +34,7 @@ VisualMesh->SetRelativeLocation(FRotator(0.0f,0.0f,60.0f));
 
 ## SetRelativeLocationAndRotation()
 
-Bestämmer komponentens position och rotation relativt sin parent. Anges som en FVector och en FRotator.
+Bestämmer komponentens position och rotation relativt sin parent. Anges som en [FVector](../datatyper/fvector.md) och en [frotator.md](../datatyper/frotator.md "mention").
 
 ```cpp
 SpringArmComp->SetRelativeLocationAndRotation(
