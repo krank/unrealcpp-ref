@@ -1,5 +1,7 @@
 # UWorld\*
 
+En UWorld är en bana; en "värld".
+
 ## SpawnActor()
 
 Skapar en instans av en [AActor](aactor/)-klass i spelvärlden. Returnerar en pekare till det skapade objektet.

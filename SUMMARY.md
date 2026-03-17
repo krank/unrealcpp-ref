@@ -15,7 +15,6 @@
 
 ## Dokumentation
 
-* [UGameplayStatics](dokumentation/ugameplaystatics.md)
 * [UPROPERTY](dokumentation/uproperty.md)
 * [UFUNCTION](dokumentation/ufunction.md)
 * [Datatyper](dokumentation/datatyper/README.md)
@@ -43,6 +42,7 @@
   * [UProjectileMovementComponent\*](dokumentation/komponenter/uprojectilemovementcomponent.md)
   * [UParticleSystemComponent](dokumentation/komponenter/uparticlesystemcomponent.md)
 * [FMath](dokumentation/fmath.md)
+* [UGameplayStatics](dokumentation/ugameplaystatics.md)
 * [UKismetMathLibrary](dokumentation/ukismetmathlibrary.md)
 * [AActor](dokumentation/aactor/README.md)
   * [Kollisioner\*](dokumentation/aactor/kollisioner.md)

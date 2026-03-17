@@ -15,3 +15,11 @@ Returnerar en spelares [APlayerController](aplayercontroller.md). Tar emot två 
 ```cpp
 OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
 ```
+
+## OpenLevel()
+
+Byter bana; tar emot ett UObject som finns i den nuvarande banan och namnet på den bana man ska byta till.
+
+```cpp
+UGameplayStatics::OpenLevel(this, FName("GameOver"));
+```
