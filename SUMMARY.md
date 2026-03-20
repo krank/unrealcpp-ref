@@ -59,6 +59,7 @@
   * [UInputAction](dokumentation/enhanced-input-system/uinputaction/README.md)
     * [FInputActionInstance](dokumentation/enhanced-input-system/uinputaction/finputactioninstance.md)
     * [FInputActionValue](dokumentation/enhanced-input-system/uinputaction/finputactionvalue.md)
+* [UAnimNotifyState](dokumentation/uanimnotifystate.md)
 * [Timers](dokumentation/timers.md)
 * [GEngine](dokumentation/gengine.md)
 * [Mjuka pekare\*](dokumentation/mjuka-pekare.md)
