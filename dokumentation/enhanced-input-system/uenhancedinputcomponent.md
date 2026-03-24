@@ -23,10 +23,15 @@ De viktigaste event-typerna är:
 * **ETriggerEvent::Started** som körs den frame eventen startar (t.ex. då en knapp först trycks ner)
 * **ETriggerEvent::Completed** som körs den frame eventen avslutas (t.ex. då en knapp släpps upp)
 
-Funktionen bör inte ha någon returtyp, men ta emot en referens till en [FInputActionInstance](uinputaction/finputactioninstance.md).
+Funktionen bör inte ha någon returtyp, men ta emot en referens till en [FInputActionInstance](uinputaction/finputactioninstance.md) eller ett [FInputActionValue](uinputaction/finputactionvalue.md). Det senare är bättre om man ändå bara vill åt värdet.
 
 ```cpp
 void APawnWithCamera::OnMove(const FInputActionInstance& Instance)
+{
+    UE_LOG(LogTemp, Warning, TEXT("Moving!"));
+}
+
+void APawnWithCamera::OnLook(const FInputActionValue& Value)
 {
     UE_LOG(LogTemp, Warning, TEXT("Moving!"));
 }
