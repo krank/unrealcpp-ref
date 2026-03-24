@@ -1,6 +1,6 @@
 # UPrimitiveComponent
 
-En USceneComponent som har någon form av fysisk geometri i 3D-rymden, och som därmed kan kollidera med andra saker i spelvärlden.
+En USceneComponent som har någon form av fysisk geometri, en _form_ i 3D-rymden, och som därmed kan kollidera med andra saker i spelvärlden.
 
 ## SetCollisionProfileName()
 
@@ -18,7 +18,44 @@ SphereComponent->SetCollisionProfileName(TEXT("Pawn"));
 CollisionComponent->IgnoreActorWhenMoving(GetInstigator(), true);
 ```
 
-## SetCollisionEnabled()
+## Overlaps
+
+Overlapping är när två former överlappar i 3D-världen. För att detta ska kunna kännas av med kod behöver man dels aktivera så att formerna genererar overlap events, och dels knyta ihop så att dessa events får funktioner att köras.
+
+### SetGenerateOverlapEvents() / GetGenerateOverlapEvents()
+
+Metoder som ändrar resp läser av ifall formen ska generera _overlap events_. Behöver vara true på båda formerna för att events ska genereras.
+
+### OnComponentBeginOverlap
+
+Detta är en event som man kan prenumerera på genom att lägga till funktioner med rätt profil. Detta gör man via AddDynamic.
+
+```cpp
+MeleeDamageCollider->OnComponentBeginOverlap.AddDynamic(
+    this, &AExperimentalCharacter::OnMeleeBeginOverlap);
+```
+
+Exempel på funktion med rätt profil:
+
+```cpp
+void AExperimentalCharacter::OnMeleeBeginOverlap(UPrimitiveComponent* MyComp, 
+    AActor* Other, UPrimitiveComponent* OtherComp, 
+    int32 OtherBodyIndex, bool bFromSweep, 
+    const FHitResult& SweepResult)
+{
+}
+```
+
+Tar emot _åtta_ parametrar.
+
+* [UPrimitiveComponent](./)\* **MyComp**: Den av AActorns komponenter som kände av kollisionen.
+* [AActor](../../aactor/)\* **Other**: Den AActor som kolliderades med.
+* [UPrimitiveComponent](./)\* **OtherComp**: Den av den andra AActorns komponenter som kolliderades med.
+* int32 **OtherBodyIndex:** Om OtherComp är en [USkeletalMeshComponent](uskeletalmeshcomponent.md) så är detta index för det specifika ben som kolliderades med.
+* bool **bFromSweep:** ???
+* [FHitResult](../../datatyper/fhitresult.md)& **SweepResult:** Extra data om kollisionen.
+
+### SetCollisionEnabled()
 
 Bestämmer vilken sorts kollisionshantering komponenten ska ha.
 
