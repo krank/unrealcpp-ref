@@ -24,6 +24,7 @@ public:
 
 Sedan kan man använda Cast och GetAnimInstance för att få tag på UAnimInstance:n och ändra variablerna.
 
-<pre class="language-cpp"><code class="lang-cpp">UArmsAnimInstance* Animator = Cast&#x3C;UArmsAnimInstance>(FirstPersonMesh->GetAnimInstance());
-<strong>Animator->Speed = GetVelocity().Length();
-</strong></code></pre>
+```cpp
+UArmsAnimInstance* Animator = Cast<UArmsAnimInstance>(FirstPersonMesh->GetAnimInstance());
+Animator->Speed = GetVelocity().Length();
+```
