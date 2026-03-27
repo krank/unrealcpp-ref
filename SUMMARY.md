@@ -65,7 +65,7 @@
 * [Animationer](dokumentation/animationer/README.md)
   * [FAnimNotifyEventReference\*](dokumentation/animationer/fanimnotifyeventreference.md)
   * [FAnimNotifyEvent\*](dokumentation/animationer/fanimnotifyevent.md)
-  * [UAnimInstance\*](dokumentation/animationer/uaniminstance.md)
+  * [UAnimInstance](dokumentation/animationer/uaniminstance.md)
   * [UAnimNotifyState](dokumentation/animationer/uanimnotifystate.md)
 * [Timers](dokumentation/timers.md)
 * [GEngine](dokumentation/gengine.md)
