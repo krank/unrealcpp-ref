@@ -34,7 +34,7 @@
   * [USceneComponent](dokumentation/komponenter/uscenecomponent.md)
   * [UPrimitiveComponent](dokumentation/komponenter/uprimitivecomponent/README.md)
     * [USphereComponent](dokumentation/komponenter/uprimitivecomponent/uspherecomponent.md)
-    * [UCapsuleComponent\*](dokumentation/komponenter/uprimitivecomponent/ucapsulecomponent.md)
+    * [UCapsuleComponent](dokumentation/komponenter/uprimitivecomponent/ucapsulecomponent.md)
     * [UStaticMeshComponent](dokumentation/komponenter/uprimitivecomponent/ustaticmeshcomponent.md)
     * [USkeletalMeshComponent\*](dokumentation/komponenter/uprimitivecomponent/uskeletalmeshcomponent.md)
   * [USpringArmComponent](dokumentation/komponenter/uspringarmcomponent.md)
@@ -69,4 +69,3 @@
   * [UAnimNotifyState](dokumentation/animationer/uanimnotifystate.md)
 * [Timers](dokumentation/timers.md)
 * [GEngine](dokumentation/gengine.md)
-* [Mjuka pekare\*](dokumentation/mjuka-pekare.md)

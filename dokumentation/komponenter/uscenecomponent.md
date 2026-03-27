@@ -43,9 +43,13 @@ SpringArmComp->SetRelativeLocationAndRotation(
 );
 ```
 
+## GetComponentLocation()
+
+Returnerar en [FVector](../datatyper/fvector.md) som beskriver komponentens rotation i relation till spelvärlden.
+
 ## GetComponentRotation()
 
-Returnerar en FRotator som beskriver komponentens rotation i relation till spelvärlden.
+Returnerar en [FRotator](../datatyper/frotator.md) som beskriver komponentens rotation i relation till spelvärlden.
 
 ```cpp
 FRotator Rotation = SpringArmComp->GetComponentRotation();
