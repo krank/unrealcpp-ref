@@ -39,7 +39,7 @@
     * [UStaticMeshComponent](dokumentation/komponenter/uprimitivecomponent/ustaticmeshcomponent.md)
     * [USkeletalMeshComponent](dokumentation/komponenter/uprimitivecomponent/uskeletalmeshcomponent.md)
   * [USpringArmComponent](dokumentation/komponenter/uspringarmcomponent.md)
-  * [UCameraComponent\*](dokumentation/komponenter/ucameracomponent.md)
+  * [UCameraComponent](dokumentation/komponenter/ucameracomponent.md)
   * [UTextRenderComponent](dokumentation/komponenter/utextrendercomponent.md)
   * [UInputComponent](dokumentation/komponenter/uinputcomponent.md)
   * [UPawnMovementComponent](dokumentation/komponenter/upawnmovementcomponent.md)
