@@ -12,7 +12,7 @@
 * [Input](howto/input/README.md)
   * [Med kollisioner\*](howto/input/med-kollisioner.md)
 * [Logging](howto/logging.md)
-* [Animationer](howto/animationer/README.md)
+* [Animationer\*](howto/animationer/README.md)
   * [Notifies\*](howto/animationer/notifies.md)
 
 ## Dokumentation
