@@ -12,6 +12,8 @@
 * [Input](howto/input/README.md)
   * [Med kollisioner\*](howto/input/med-kollisioner.md)
 * [Logging](howto/logging.md)
+* [Animationer](howto/animationer/README.md)
+  * [NotifyEvents\*](howto/animationer/notifyevents.md)
 
 ## Dokumentation
 
@@ -27,6 +29,7 @@
   * [UParticleSystem](dokumentation/datatyper/uparticlesystem.md)
   * [UDamageType](dokumentation/datatyper/udamagetype.md)
 * [Cast](dokumentation/cast.md)
+* [Objektpekare](dokumentation/objektpekare.md)
 * [Komponenter](dokumentation/komponenter/README.md)
   * [USceneComponent](dokumentation/komponenter/uscenecomponent.md)
   * [UPrimitiveComponent](dokumentation/komponenter/uprimitivecomponent/README.md)
@@ -59,7 +62,11 @@
   * [UInputAction](dokumentation/enhanced-input-system/uinputaction/README.md)
     * [FInputActionInstance](dokumentation/enhanced-input-system/uinputaction/finputactioninstance.md)
     * [FInputActionValue](dokumentation/enhanced-input-system/uinputaction/finputactionvalue.md)
-* [UAnimNotifyState](dokumentation/uanimnotifystate.md)
+* [Animationer](dokumentation/animationer/README.md)
+  * [FAnimNotifyEventReference\*](dokumentation/animationer/fanimnotifyeventreference.md)
+  * [FAnimNotifyEvent\*](dokumentation/animationer/fanimnotifyevent.md)
+  * [UAnimInstance\*](dokumentation/animationer/uaniminstance.md)
+  * [UAnimNotifyState](dokumentation/animationer/uanimnotifystate.md)
 * [Timers](dokumentation/timers.md)
 * [GEngine](dokumentation/gengine.md)
 * [Mjuka pekare\*](dokumentation/mjuka-pekare.md)
