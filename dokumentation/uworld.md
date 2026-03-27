@@ -28,10 +28,3 @@ I båda fallen kan man också lägga till ett FActorSpawnParameters-objekt.
 AFloatingActor* floater = GetWorld()->SpawnActor<AFloatingActor>(Transform, SpawnParams);
 ```
 
-## OverlapMultiByObjectType()\*
-
-```cpp
-GetWorld()->OverlapMultiByObjectType(Overlaps, 
-  ExplosionCenter, FQuat::Identity, ObjectParams, OverlapShape, QueryParams);
-```
-
