@@ -18,6 +18,30 @@ SphereComponent->SetCollisionProfileName(TEXT("Pawn"));
 CollisionComponent->IgnoreActorWhenMoving(GetInstigator(), true);
 ```
 
+## FirstPersonPrimitiveType
+
+En variabel som bestämmer hur komponenten ska hanteras när den ses i ett förstapersonsspel.
+
+```cpp
+FirstPersonMesh->FirstPersonPrimitiveType = EFirstPersonPrimitiveType::FirstPerson;
+```
+
+Möjliga värden:
+
+* EFirstPersonPrimitiveType::**FirstPerson** – Renderas med kamerans förstapersons-inställningar
+* EFirstPersonPrimitiveType::**WorldSpaceRepresentation** – Renderas bara för andra spelare/kameror
+* EFirstPersonPrimitiveType::**None** – ändras inte av förstaperspns-rendering.
+
+## SetOnlyOwnerSee()
+
+Bestämmer ifall komponenten bara ska vara synlig för dess ägare.
+
+```cpp
+FirstPersonMesh->SetOnlyOwnerSee(true);
+```
+
+## SetCollisionProfileName()
+
 ## Overlaps
 
 Overlapping är när två former överlappar i 3D-världen. För att detta ska kunna kännas av med kod behöver man dels aktivera så att formerna genererar overlap events, och dels knyta ihop så att dessa events får funktioner att köras.
